@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel com Redirecionamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="carousel-container">
+        <div class="carousel" id="myCarousel">
+            <div class="carousel-item">
+                <a href="https://www.example.com">
+                    <img src="./Imagens/Linkedin1.png" alt="Imagem 1">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.example2.com">
+                    <img src="./Imagens/Linkedin2.png" alt="Imagem 2">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.example2.com">
+                    <img src="./Imagens/Linkedin3.png" alt="Imagem 2">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.example2.com">
+                    <img src="./Imagens/Linkedin4.png" alt="Imagem 2">
+                </a>
+            </div>
+            <!-- Adicionar mais itens conforme necessário -->
+        </div>
+        
+        <!-- Adicionar botões de controle -->
+        <div class="carousel-controls">
+            <button onclick="prevSlide()">Imagem Anterior</button>
+            <button onclick="togglePause()">Pausar</button>
+            <button onclick="nextSlide()">Próxima Imagem</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
