@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const carousel = document.getElementById('myCarousel');
     let currentIndex = 0;
     let isPaused = false;
-    let intervalId;
+    let intervalId; 
 
     function showSlide(index) {
         if (index < 0) {
